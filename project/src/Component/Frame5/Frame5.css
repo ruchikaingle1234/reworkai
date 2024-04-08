@@ -1,0 +1,176 @@
+.container-15
+{
+    width: 100%;
+height: 754px;
+margin-top: 71px;
+gap: 0px;
+opacity: 0px;
+background: #F6F6F6;
+
+
+}
+.row1{
+    display: flex;
+ 
+
+gap: 30px;
+
+
+}
+.col1{
+    width: 60%;
+    
+    margin-top: 113px;
+    Width:773px;
+Height:367px;
+
+}
+.col2{
+    width: 40%;
+   
+    margin-top: 65px;
+    width: 387px;
+height: 563px;
+
+left: 933px;
+gap: 0px;
+border-radius: 12px;
+
+
+
+}
+.container-txt{
+    width: 773px;
+height: 118px;
+
+
+}
+.txt1{
+    font-family: Garnett Semibold;
+font-size: 42px;
+color: #5C27C0;
+
+font-weight: 600;
+line-height: 58.51px;
+text-align: left;
+
+}
+.sp1{
+    font-family: Garnett Regular;
+font-size: 42px;
+color: #5C27C0;
+
+font-weight: 400;
+line-height: 58.51px;
+text-align: left;
+
+}
+.con{
+    width: 773px;
+height: 81px;
+
+
+}
+.container-para{
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+}
+.conta2
+{
+    width: 773px;
+height: 108px;
+
+
+}
+.text3
+{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+text-align: left;
+
+}
+.list1
+{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+
+}
+.container-btn{
+    width: 591px;
+height:70px;
+top: 574px;
+left: 120px;
+padding: 21px 56px 21px 56px;
+gap: 10px;
+
+opacity: 0px;
+
+}
+.btn2
+{
+    width: 479px;
+height: 28px;
+background: #5C27C0;
+border-radius: 20px;
+color: white;
+box-shadow: 0px 8px 18px 0px #AE5DFF75;
+
+
+
+
+
+}
+@media only screen and (max-width: 768px) {
+    .container-15 {
+        height: auto; /* Change height to auto for smaller screens */
+        margin-top: 150px;
+        margin-left: 20px;
+       
+        
+    }
+    .container-txt{
+        width: 300px;
+        font-size: 20px;
+    }
+    .txt1{
+        margin-left: 90px;
+        font-size: 20px;
+        margin-top: -40px;
+        gap:3px;}
+    .container-para{
+        width: 300px;
+        margin-left: 100px;
+        margin-top: 70px;
+    }
+    .btn2{
+        width: 300px;
+        height: 100px;
+        margin-left: 40px;
+    }
+    .text3{
+        margin-left: 60px;
+    }
+    .row1{
+        display:block;   
+        
+    
+    }
+    .list1{
+        width: 400px;
+    }
+    .col2{
+        margin-left: 70px; 
+        margin-top: 350px;
+    }
+    }
+
+
+

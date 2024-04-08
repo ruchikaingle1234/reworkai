@@ -1,0 +1,122 @@
+/* Base styles */
+.container-frame10 {
+    width: 100%;
+    height: auto; /* Adjusted to be responsive */
+    padding: 5% 10%; /* Adjusted padding to be responsive */
+    opacity: 1; /* Default opacity changed to 1 for visibility */
+
+    /* Example positioning styles for absolute positioning */
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.container-op {
+    width: 100%; /* Adjusted to full width */
+    height: auto; /* Adjusted to be responsive */
+    margin-top: 5%; /* Adjusted margin for responsiveness */
+    gap: 20px;
+    opacity: 1;
+}
+
+.op1 {
+    width: 100%; /* Adjusted to full width */
+    font-family: 'Garnett Semibold', sans-serif;
+    font-size: 3rem; /* Adjusted font size for responsiveness */
+    color: #5C27C0;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.op2 {
+    width: 100%; /* Adjusted to full width */
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem; /* Adjusted font size for responsiveness */
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+.f10{
+    width: 476px; /* Adjusted to full width */
+    height: 70px;
+}
+
+.g {
+    width: 100%; /* Adjusted to full width */
+    height: auto; /* Adjusted to be responsive */
+    padding: 5% 10%; /* Adjusted padding for responsiveness */
+    background: #5C27C0;
+    border-radius: 20px;
+    box-shadow: 0px 8px 18px 0px rgba(174, 93, 255, 0.3);
+}
+
+.container-o {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem; /* Adjusted font size for responsiveness */
+    font-weight: 500;
+    line-height: 1.4;
+    color: white;
+    text-align: left;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .container-frame10 {
+        padding: 10% 5%; /* Adjusted padding for smaller screens */
+    }
+
+    .op1 {
+        font-size: 2rem; /* Adjusted font size for smaller screens */
+    }
+
+    .op2 {
+        font-size: 0.875rem; /* Adjusted font size for smaller screens */
+    }
+
+    .g {
+        padding: 8% 5%; /* Adjusted padding for smaller screens */
+    }
+
+    .container-o {
+        font-size: 1.25rem; /* Adjusted font size for smaller screens */
+    }
+    .container-frame10
+    {
+  margin-top: 100px;
+    
+    
+    }
+    .f10{
+        width: 300px; /* Adjusted to full width */
+        height: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .op1 {
+        font-size: 1.5rem; /* Further reduced font size for very small screens */
+    }
+
+    .op2 {
+        font-size: 0.75rem; /* Further reduced font size for very small screens */
+    }
+
+    .g {
+        padding: 10% 5%; /* Increased padding for very small screens */
+    }
+
+    .container-o {
+        font-size: 1rem; /* Further reduced font size for very small screens */
+    }
+    .container-frame10
+    {
+  margin-top: 100px;
+    
+    
+    }
+}
+
+
+
+

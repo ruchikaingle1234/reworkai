@@ -1,0 +1,139 @@
+.container-Fra
+{
+    width:100%;
+height: 1161px;
+top: 4445px;
+left: 1px;
+background: #FDFDFD;
+
+}
+.container-t{
+    width: 496px;
+height: 59px;
+margin-top: 68px;
+margin-left: 120px;
+
+}
+.con-p
+{
+    font-family: Garnett Semibold;
+font-size: 42px;
+color: #5C27C0;
+
+font-weight: 600;
+
+
+}
+.con-span
+{
+    font-family: Garnett Semibold;
+font-size: 42px;
+
+font-weight: 600;
+line-height: 58.51px;
+text-align: left;
+color: #181818;
+
+
+}
+.con-p1{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+
+
+}
+.container-card{
+    width: 1,198px;
+height: 706px;
+margin-top: 200px;
+margin-left: 50px;
+
+gap: 24px;
+opacity: 0px;
+
+
+}
+.container-c
+{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    
+
+}
+.pa1
+{
+    font-family: Poppins;
+font-size: 19px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+
+}
+.pa2
+{
+    font-family: Garnett Regular;
+font-size: 24px;
+color: #5C27C0;
+
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+
+}
+.pa3
+{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+
+
+}
+.imagei
+{
+    background: #EFE5FF
+}
+.pa3
+{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+color: #6A6A6A;
+
+}
+@media only screen and (max-width: 768px) {
+    .container-Fra {
+        height: auto; /* Change height to auto for smaller screens */
+    margin-top: 100px;
+    }
+    .container-c
+{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 100px;
+    margin-left: 4%;
+    width: 57%;
+    
+
+}
+.con-p,.con-span{
+    font-size: 25px;
+}
+.pa1{
+    font-size: 18px;
+    margin-left: -10px;
+}
+}
+
+
+/* @media only screen and (min-width: 1200px) {
+    .container-15 {
+        opacity: 1; 
+    }
+} */
